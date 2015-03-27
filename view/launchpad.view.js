@@ -46,7 +46,7 @@ sap.ui.jsview("view.launchpad",
                             removable: false,
                             press: function()
                             {
-                                //window.location.assign("../DuxHealthPrescriptionApp");
+                                window.location.assign("../DuxHealthPatientConsultationApp");
                             }
                         }),
 
@@ -57,10 +57,64 @@ sap.ui.jsview("view.launchpad",
                             removable: false,
                             press: function()
                             {
-                                window.location.assign("../DuxHealthPatientExaminationApp");
+                                // link
+                            }
+                        }),
+
+                        new sap.m.StandardTile("tile_consultation_history",
+                        {
+                            title: "{i18n>Tile_Title_Consultation_History}",
+                            icon: "sap-icon://document-text",
+                            removable: false,
+                            press: function()
+                            {
+                                // link
+                            }
+                        }),
+
+                        new sap.m.StandardTile("tile_examination_history",
+                        {
+                            title: "{i18n>Tile_Title_Examination_History}",
+                            icon: "sap-icon://personnel-view",
+                            removable: false,
+                            press: function()
+                            {
+                                // link
+                            }
+                        }),
+
+                        new sap.m.StandardTile("tile_vaccination_records",
+                        {
+                            title: "{i18n>Tile_Title_Vaccination_Records}",
+                            icon: "sap-icon://lab",
+                            removable: false,
+                            press: function()
+                            {
+                                // link
+                            }
+                        }),
+
+                        new sap.m.StandardTile("tile_drugs",
+                        {
+                            title: "{i18n>Tile_Title_Drugs}",
+                            icon: "sap-icon://pharmacy",
+                            removable: false,
+                            press: function()
+                            {
+                                // link
+                            }
+                        }),
+
+                        new sap.m.StandardTile("tile_hospitals_nearby",
+                        {
+                            title: "{i18n>Tile_Title_Hospitals_Nearby}",
+                            icon: "sap-icon://building",
+                            removable: false,
+                            press: function()
+                            {
+                                // link
                             }
                         })
-
                     ]
 
                 })
